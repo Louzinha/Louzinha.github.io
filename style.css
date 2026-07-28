@@ -410,6 +410,29 @@ footer{
 }
 
 /* ===========================
+   PROJECT PAGE
+=========================== */
+
+.section ul{
+    margin-top:20px;
+    padding-left:25px;
+}
+
+.section li{
+    margin-bottom:14px;
+    line-height:1.8;
+    color:#444;
+    font-size:17px;
+}
+
+.section h4{
+    color:#112147;
+    margin-top:25px;
+    margin-bottom:18px;
+    font-size:24px;
+}
+
+/* ===========================
    MOBILE
 =========================== */
 
