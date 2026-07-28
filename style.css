@@ -497,10 +497,10 @@ footer{
    MOBILE
 =========================== */
 
-@media(max-width:600px){
+@media(max-width:900px){
 
     #skills .card-grid{
-        grid-template-columns:1fr;
+         grid-template-columns:repeat(2,1fr);
     }
 
 }
