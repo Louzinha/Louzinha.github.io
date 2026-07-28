@@ -497,7 +497,13 @@ footer{
    MOBILE
 =========================== */
 
-@media(max-width:900px){
+@media(max-width:600px){
+
+    #skills .card-grid{
+        grid-template-columns:1fr;
+    }
+
+}
 
 .hero-container{
 
