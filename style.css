@@ -344,6 +344,50 @@ body{
 }
 
 /* ===========================
+   CERTIFICATIONS
+=========================== */
+
+#certifications .card-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(380px,1fr));
+    gap:30px;
+    align-items:stretch;
+}
+
+#certifications .card{
+    background:#fff;
+    border-radius:18px;
+    padding:35px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:all .3s ease;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+#certifications .card:hover{
+    transform:translateY(-8px);
+}
+
+#certifications h3{
+    color:#112147;
+    font-size:26px;
+    margin-bottom:18px;
+}
+
+#certifications p{
+    margin:8px 0;
+    font-size:17px;
+    color:#444;
+}
+
+#certifications .btn-primary{
+    display:inline-block;
+    margin-top:25px;
+    width:fit-content;
+}
+
+/* ===========================
    FOOTER
 =========================== */
 
