@@ -457,6 +457,30 @@ footer{
     margin-bottom:35px;
 }
 
+.role-summary{
+    margin-bottom:35px;
+}
+
+/* ===========================
+   SKILLS
+=========================== */
+
+#skills .card{
+    min-height:320px;
+}
+
+#skills h3{
+    color:#112147;
+    margin-bottom:20px;
+    font-size:22px;
+}
+
+#skills p{
+    line-height:2;
+    color:#444;
+    font-size:16px;
+}
+
 /* ===========================
    MOBILE
 =========================== */
