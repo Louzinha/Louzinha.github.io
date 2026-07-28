@@ -310,6 +310,17 @@ body{
 
 }
 
+.section h3{
+    color:#112147;
+    font-size:22px;
+    margin-top:45px;
+    margin-bottom:15px;
+}
+
+.section h3:first-of-type{
+    margin-top:0;
+}
+
 /* ===========================
    CARDS
 =========================== */
