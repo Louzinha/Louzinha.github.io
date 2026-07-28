@@ -467,12 +467,16 @@ footer{
 
 #skills .card-grid{
     display:grid;
-    grid-template-columns:repeat(4,1fr);
-    gap:25px;
+    grid-template-columns:repeat(2,1fr);
+    gap:35px;
 }
 
 #skills .card{
-    min-height:360px;
+
+    min-height:320px;
+
+    padding:35px;
+
 }
 
 #skills h3{
