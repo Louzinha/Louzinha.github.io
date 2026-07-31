@@ -326,6 +326,33 @@ display:flex;
 
 }
 
+.hero-content p,
+.hero-description,
+.hero-title,
+.welcome{
+    color: rgba(255,255,255,0.9);
+}
+
+.welcome{
+    color: var(--accent);
+    font-weight:600;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    margin-bottom:20px;
+}
+
+.hero-title{
+    color:rgba(255,255,255,.85);
+    font-size:20px;
+    margin-bottom:25px;
+}
+
+.hero-description{
+    color:rgba(255,255,255,.85);
+    line-height:1.9;
+    font-size:18px;
+}
+
 .hero-content h1{
 
     font-size:64px;
