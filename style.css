@@ -292,16 +292,6 @@ display:flex;
 
 }
 
-.hero-image{
-
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
-}
-
 .hero-image img{
 
     width:380px;
@@ -374,13 +364,10 @@ display:flex;
 }
 
 .hero-description{
-
     max-width:700px;
-
     margin:30px 0;
-
     line-height:1.9;
-
+    color:#ffffff !important;
 }
 
 /* ===========================
@@ -505,12 +492,6 @@ display:flex;
     display:flex;
     justify-content:center;
     align-items:center;
-}
-
-.hero-image img{
-    width:380px;
-    height:380px;
-    object-fit:cover;
 }
 
 /* ===========================
@@ -2229,18 +2210,8 @@ font-size:12px;
 padding:8px 14px;
 
 }
-
-.hero-image img{
-
-width:220px;
-
-height:220px;
-
+   
 }
-
-}
-
-
 
 /*==================================
       CUSTOM SCROLLBAR
