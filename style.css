@@ -228,11 +228,29 @@ img{
 
 .menu-btn{
 
-    display:none;
+display:none;
 
-    font-size:28px;
+}
 
-    cursor:pointer;
+@media(max-width:991px){
+
+.menu-btn{
+
+display:block;
+
+}
+
+.nav-links{
+
+display:none;
+
+}
+
+.nav-links.active{
+
+display:flex;
+
+}
 
 }
 
@@ -242,26 +260,35 @@ img{
 
 .hero{
 
-    padding-top:150px;
+background:
 
-    padding-bottom:100px;
+linear-gradient(
 
-    background:linear-gradient(135deg,#ffffff,#f7f9fc);
+rgba(15,23,42,.75),
+
+rgba(15,23,42,.75)
+
+),
+
+url("office.jpg");
+
+background-size:cover;
+
+background-position:center;
 
 }
-
 .hero-grid{
-
     display:grid;
-
-    grid-template-columns:1.3fr 1fr;
-
+    grid-template-columns: 1.2fr 0.8fr;
     align-items:center;
-
     gap:80px;
-
 }
 
+.hero-content{
+
+    max-width:650px;
+
+}
 .welcome{
 
     color:var(--accent);
@@ -437,25 +464,15 @@ img{
 =========================== */
 
 .hero-image{
-
-    text-align:center;
-
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
 .hero-image img{
-
-    width:430px;
-
-    height:430px;
-
+    width:380px;
+    height:380px;
     object-fit:cover;
-
-    border-radius:50%;
-
-    border:10px solid #fff;
-
-    box-shadow:0 30px 60px rgba(0,0,0,.12);
-
 }
 
 /* ===========================
@@ -2097,14 +2114,17 @@ grid-template-columns:1fr;
 
 .hero-buttons{
 
-flex-direction:column;
+display:flex;
+
+gap:18px;
+
+flex-wrap:wrap;
 
 }
 
-.btn-primary,
-.btn-secondary{
+.hero-buttons a{
 
-width:100%;
+width:190px;
 
 justify-content:center;
 
@@ -2112,15 +2132,15 @@ justify-content:center;
 
 .logo{
 
-font-size:22px;
+display:flex;
 
-}
+align-items:center;
 
-.hero-image img{
+height:80px;
 
-width:260px;
+font-size:34px;
 
-height:260px;
+font-weight:700;
 
 }
 
