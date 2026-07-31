@@ -1515,6 +1515,10 @@ grid-template-columns:1fr;
 
     border:1px solid #edf2f7;
 
+    text-decoration:none;
+
+    color:inherit;
+
 }
 
 .tool-card:hover{
