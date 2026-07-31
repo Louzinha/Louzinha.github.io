@@ -954,6 +954,7 @@ display:flex;
 }
 
 .skill-card{
+.skill-card{
 
     background:white;
 
@@ -961,20 +962,24 @@ display:flex;
 
     border-radius:20px;
 
-    text-align:center;
-
-    display:flex;
-
-    flex-direction:column;
-
-    align-items:center;
-
-    transition:.35s;
+    border:1px solid #edf2f7;
 
     box-shadow:0 10px 25px rgba(0,0,0,.08);
 
-    border:1px solid #edf2f7;
+    transition:.35s;
 
+    display:grid;
+
+    grid-template-rows:
+        60px
+        70px
+        1fr;
+
+    justify-items:center;
+
+    min-height:460px;
+
+    text-align:center;
 }
 
 .skill-card:hover{
@@ -999,8 +1004,17 @@ display:flex;
 
     font-size:24px;
 
-    margin-bottom:25px;
+    display:flex;
 
+    align-items:center;
+
+    justify-content:center;
+
+    text-align:center;
+
+    margin:0;
+
+    width:100%;
 }
 
 /*==================================
@@ -1013,10 +1027,9 @@ display:flex;
 
     padding:0;
 
-    margin:0 auto;
+    margin-top:15px;
 
-    max-width:240px;
-
+    width:100%;
 }
 
 .skill-list li{
